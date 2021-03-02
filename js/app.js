@@ -1,4 +1,7 @@
 'use strict'
+alert("welcome to the saif website");
+let userName = prompt("please enter your name");
+alert("hello"+" "+userName);
 function myFunction() {
     
     if(userInput =='yes' || userInput == 'y')
@@ -16,13 +19,14 @@ else
     alert('wrong input');
 }
  }
-var userInput = prompt('my first name is saif').toLowerCase();
+var userInput = prompt('my first name is saif please answer yes or no').toLowerCase();
  myFunction();   
-var userInput = prompt('my last name is hamaydeh').toLowerCase();
+var userInput = prompt('my last name is hamaydeh please answer yes or no').toLowerCase();
  myFunction();
-var userInput = prompt('my age  is 25').toLowerCase();
+var userInput = prompt('my age  is 25 please answer yes or no').toLowerCase();
 myFunction();
-var userInput = prompt('my place of birth UAE').toLowerCase();
+var userInput = prompt('my place of birth UAE please answer yes or no').toLowerCase();
 myFunction();
-var userInput = prompt('my faveret team is real madrid').toLowerCase();
+var userInput = prompt('my faveret team is real madrid please answer yes or no').toLowerCase();
 myFunction();
+alert("thanks for using my site"+" "+userName);
