@@ -35,6 +35,7 @@ let GuessNumber = 5 ;
 let userGuessNumber = prompt('please guess the number betweem 0 and 9');
 
 var i;
+function sixthQuestion() {
 for (i = 0; i <4; i++) {
     
     if(userGuessNumber<5){
@@ -57,9 +58,11 @@ console.log("saif");
 if(userGuessNumber!=5){
 alert("i'm sorry the guess number is 5");
 }
+}
 
 
 let x;
+function seventhQuestion() {
 for (i = 0; i <6; i++){
 let n = prompt ("Guess my fav series");
  var series = ["game of thrones", "breaking bad", "vikings", "you", "black list", "friends", "sherlock", "prison breack", "witcher", "la casa de papel"];
@@ -78,6 +81,10 @@ let n = prompt ("Guess my fav series");
 
         alert ("Wrong");
     }}
+}
 
+
+sixthQuestion();
+seventhQuestion();
 alert("number of correcr answer"+" "+c);  
 alert("thanks for using my site"+" "+userName);
