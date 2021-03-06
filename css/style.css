@@ -1,3 +1,32 @@
+
+body{
+    background-color: teal;
+}
+
 table , th , td {
     border : 1px solid black;
+}
+header
+{
+    
+   
+   background-color: silver;
+    height: 60px;
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ .nav{
+    display: inline-block;
+    color: #000;
+}
+ a {
+    text-decoration: none;
+    color: 000;
+    border: 1px solid  black;
+    padding: 5px 20px ;
+   
 }
